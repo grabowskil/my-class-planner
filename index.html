@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Class Planner</title>
+<style>
+:root { color-scheme: light dark; --accent: #9E3F5C; --surface: #FAF6F5; --text: #1C1617; --muted: #5E5355; --line: #F6DDE4; }
+@media (prefers-color-scheme: dark) { :root { --accent: #E58AA6; --surface: #1A1315; --text: #F5EEF0; --muted: #B9AEB1; --line: #4A2434; } }
+body { margin: 0; font: 17px/1.55 -apple-system, system-ui, sans-serif; background: var(--surface); color: var(--text); }
+main { max-width: 44rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+a { color: var(--accent); }
+nav { display: flex; flex-wrap: wrap; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid var(--line); margin-bottom: 2rem; }
+h1 { font-size: 1.9rem; margin: 0 0 .5rem; }
+p { margin: .75rem 0; }
+.meta { color: var(--muted); font-size: .95rem; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 3rem 0; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#en">English</a> <a href="#de">Deutsch</a></nav>
+
+<section id="en" lang="en">
+<h1>My Class Planner</h1>
+<p>My Class Planner is a planner for fitness instructors. Build classes from phases and exercises, schedule and run sessions with a built-in timer, rate them afterwards, and review your insights over time. All data stays on your device, with no account and no tracking.</p>
+<p><a href="privacy.html">Privacy Policy</a> &middot; <a href="support.html">Support</a></p>
+</section>
+
+<hr>
+
+<section id="de" lang="de">
+<h1>My Class Planner</h1>
+<p>My Class Planner ist ein Planer für Fitnesskursleitende. Stelle Kurse aus Phasen und Übungen zusammen, plane Einheiten und leite sie mit einem eingebauten Timer an, bewerte sie danach und sieh dir deine Auswertungen über die Zeit an. Alle Daten bleiben auf deinem Gerät, ohne Konto und ohne Tracking.</p>
+<p><a href="privacy.html">Datenschutzerklärung</a> &middot; <a href="support.html">Support</a></p>
+</section>
+</main>
+</body>
+</html>
